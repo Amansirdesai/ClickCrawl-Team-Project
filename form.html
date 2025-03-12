@@ -1,0 +1,51 @@
+<!Doctype>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+	    </meta>
+	    <style type="text/css"></style>
+		<title>FORMS</title>
+		<body>
+			<h1>FORMS</h1>
+			<form action="/server">
+				<label for="fname">First name:</label><br>
+  				<input type="text" id="fname" name="fname"><br>
+  				<label for="lname">Last name:</label><br>
+  				<input type="text" id="lname" name="lname"><br><br>
+  				<label for="pwd">Password:</label>
+  				<input type="Password" name="Password"></input><br><br>
+
+
+
+
+
+
+
+  				<label for="cars">Select your department:</label><br>
+				<select id="cars" name="Department">
+					<option value="Select">Choose your Department</option>
+  					<option value="volvo">ISE</option>
+  					<option value="saab">CSE</option>
+  					<option value="fiat">ECE</option>
+  					<option value="audi">AIML</option>
+				</select><br><br>
+				<input type="button" onclick="alert('Submitted!')" value="submit">
+
+				<h2>Live Time:</h2>
+    			<p id="clock"></p>
+
+
+				<script>
+        			function updateClock() {
+           				let now = new Date();
+            			let timeString = now.toLocaleTimeString(); // Format: HH:MM:SS AM/PM
+            		document.getElementById("clock").innerText = timeString;
+        			}
+
+        			setInterval(updateClock, 1000); // Update every 1 second
+        			updateClock(); // Call function immediately
+    			</script>
+
+			</form>
