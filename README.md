@@ -14,5 +14,9 @@ TO CLONE
   git clone #link of repo#
   git pull origin main
 
+TO CREATE NEW BRANCH
+  git checkout -b #branch name#
+  git checkout #branch name#(to change branch)
+
 git status
 git diff (shows the changes done)
