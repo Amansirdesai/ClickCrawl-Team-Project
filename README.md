@@ -15,3 +15,4 @@ TO CLONE
   git pull origin main
 
 git status
+git diff (shows the changes done)
