@@ -17,6 +17,7 @@ TO CLONE
 TO CREATE NEW BRANCH
   git checkout -b #branch name#
   git checkout #branch name#(to change branch)
+  git merge main(merge branch to main)
 
 git status
 git diff (shows the changes done)
