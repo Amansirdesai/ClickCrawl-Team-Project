@@ -13,3 +13,5 @@ TO PUSH
 TO CLONE
   git clone #link of repo#
   git pull origin main
+
+git status
