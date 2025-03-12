@@ -16,3 +16,5 @@ TO CLONE
 
 git status
 git diff (shows the changes done)
+
+
